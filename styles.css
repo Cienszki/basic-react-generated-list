@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Righteous');
+
+
+body {
+	background: linear-gradient(to right, #544a7d, #ffd452);
+	
+}
+.app {
+	text-align: center;
+}
+.contactForm {
+	text-align: justify;
+	display: inline-block;
+	margin: 50px;
+}
+.contactForm > * {
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+.contact {
+	margin-top: 10px;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 17px;
+}
+
+ul > * {
+	list-style-type: none;
+}
+
+button {
+	background: linear-gradient(to left, #544a7d, #ffd452);
+	color: white;
+	font-family: 'Righteous', cursive;
+
+}
